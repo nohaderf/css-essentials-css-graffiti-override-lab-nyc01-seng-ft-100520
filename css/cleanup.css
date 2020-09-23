@@ -43,7 +43,7 @@ id of tag-5 and class of slick */
 Selects body and parent id of wall,
 then selects descendent div with a class of parent,
 and selects the sibling div that is the last-child 
-which then selects a descendent with an ID of tag-6
+which then selects a descendent with an id of tag-6
 **/
 
 body div#wall div.parent div:last-child > div#tag-6 {

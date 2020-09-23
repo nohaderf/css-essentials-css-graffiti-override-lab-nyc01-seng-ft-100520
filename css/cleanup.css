@@ -52,9 +52,9 @@ body div#wall div.parent div:last-child > div#tag-6 {
 
 
 /**
-Selects a div with an id of wall,
-then selects a descendent div with a class of parent,
-and a div which is the first child of the div above and this div is also the parent of another div with the ID of tag-7
+Selects a div with an id of wall, then selects a descendent div with a class of parent,
+and a div which is the first child of the div above 
+and this div is also the parent of another div with the ID of tag-7
 the element with the ID of tag-7 also has a class of .slick
 **/
 

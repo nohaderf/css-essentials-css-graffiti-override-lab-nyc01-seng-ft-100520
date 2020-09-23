@@ -45,7 +45,8 @@ then selects descendent div with a class of parent,
 and selects the sibling div that is the last-child 
 which then selects a descendent with an ID of tag-6
 **/
-body #wall div.parent div:last-child #tag-6 {
+
+div#wall div.parent div:last-child > div#tag-6 {
   display: none;
 }
 

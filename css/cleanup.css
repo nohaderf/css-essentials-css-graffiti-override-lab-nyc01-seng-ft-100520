@@ -1,1 +1,62 @@
 /* write your override styles here */
+
+/* 
+Selects parent id of wall to 
+descendent with class of tag-1, */
+#wall .tag-1 {
+  display: none;
+}
+
+/* 
+Selects the body parent id of wall to 
+descendent with class of tag-1 and sibling of id tag-2, */
+body #wall #tag-2{
+  display: none;
+}
+
+/* 
+Selects parent id of wall to descendent with id of tag-3, 
+class of slick, and class of wicked */
+#wall #tag-3.slick.wicked{
+  display:none;
+}
+
+/* 
+Selects parent id of wall to descendent with 
+class of parent that has descendent id of tag-4 */
+#wall .parent #tag-4 {
+  display: none;
+}
+
+
+/* 
+Selects parent id of wall, then it selects the descendent 
+.parent and it's sibling .parent
+the descendent of .parent + parent is select via
+id of tag-5 and class of slick */
+#wall .parent + .parent #tag-5.slick {
+  display: none;
+}
+
+
+/**
+Selects parent id of wall,
+then selects descendent div with a class of parent,
+and selects the sibling div that is the last-child 
+which then selects a descendent with an ID of tag-6
+**/
+body #wall div.parent div:last-child #tag-6 {
+  display: none;
+}
+
+
+/**
+this selects a div with an ID of wall,
+then selects a div with a class of parent,
+then selects a div which is the first child of the div above and this div is also the parent of another div with the ID of tag-7
+the element with the ID of tag-7 also has a class of .slick
+**/
+
+#wall div.parent div:first-child > #tag-7.slick {
+  display: none;
+}

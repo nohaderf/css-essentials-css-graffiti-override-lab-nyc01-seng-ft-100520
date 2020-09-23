@@ -8,7 +8,7 @@ descendent with class of tag-1, */
 }
 
 /* 
-Selects the body parent id of wall to 
+Selects the body and parent id of wall to 
 descendent with class of tag-1 and sibling of id tag-2, */
 body #wall #tag-2{
   display: none;
@@ -40,7 +40,7 @@ id of tag-5 and class of slick */
 
 
 /**
-Selects parent id of wall,
+Selects body and parent id of wall,
 then selects descendent div with a class of parent,
 and selects the sibling div that is the last-child 
 which then selects a descendent with an ID of tag-6
